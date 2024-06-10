@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-//import 'package:path_provider/path_provider.dart';
- 
+
 class AppTheme {
   static final lightTheme = ThemeData(
     colorScheme: ColorScheme.fromSeed(
@@ -27,6 +26,9 @@ class AppTheme {
       bodyText2: GoogleFonts.poppins(
         color: Colors.black54,
       ),
+    ),
+    iconTheme: IconThemeData(
+      color: Colors.black,
     ),
   );
 
@@ -54,6 +56,9 @@ class AppTheme {
       bodyText2: GoogleFonts.poppins(
         color: Colors.white70,
       ),
+    ),
+    iconTheme: IconThemeData(
+      color: Colors.white,
     ),
   );
 }

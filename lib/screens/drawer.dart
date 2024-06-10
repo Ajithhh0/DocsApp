@@ -7,12 +7,12 @@ class MyDrawer extends StatelessWidget {
       child: ListView(
         padding: EdgeInsets.zero,
         children: <Widget>[
-          DrawerHeader(
+          const DrawerHeader(
             decoration: BoxDecoration(
               color: Colors.black,
             ),
             child: Text(
-              'Drawer Header',
+              'DocsApp',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
