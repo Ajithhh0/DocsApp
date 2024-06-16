@@ -20,14 +20,14 @@ class AppTheme {
       ),
     ),
     textTheme: TextTheme(
-      bodyText1: GoogleFonts.poppins(
+      bodyLarge: GoogleFonts.poppins(
         color: Colors.black,
       ),
-      bodyText2: GoogleFonts.poppins(
+      bodyMedium: GoogleFonts.poppins(
         color: Colors.black54,
       ),
     ),
-    iconTheme: IconThemeData(
+    iconTheme: const IconThemeData(
       color: Colors.black,
     ),
   );
@@ -50,14 +50,14 @@ class AppTheme {
       ),
     ),
     textTheme: TextTheme(
-      bodyText1: GoogleFonts.poppins(
+      bodyLarge: GoogleFonts.poppins(
         color: Colors.white,
       ),
-      bodyText2: GoogleFonts.poppins(
+      bodyMedium: GoogleFonts.poppins(
         color: Colors.white70,
       ),
     ),
-    iconTheme: IconThemeData(
+    iconTheme: const IconThemeData(
       color: Colors.white,
     ),
   );
